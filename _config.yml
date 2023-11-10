@@ -3,3 +3,7 @@ description: The University of Texas at Austin
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-dinky
+- name: Set up Node.js
+  uses: actions/setup-node@v3
+  with:
+    node-version: 16
