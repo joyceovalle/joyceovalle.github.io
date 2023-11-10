@@ -2,111 +2,194 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-  <title>Joyce Ovalle | The University of Texas at Austin</title>
-  <meta name="generator" content="Jekyll v3.9.3" />
-  <meta property="og:title" content="Joyce Ovalle" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description" content="The University of Texas at Austin" />
-  <meta property="og:description" content="The University of Texas at Austin" />
-  <link rel="canonical" href="https://joyceovalle.github.io/" />
-  <meta property="og:url" content="https://joyceovalle.github.io/" />
-  <meta property="og:site_name" content="Joyce Ovalle" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta property="twitter:title" content="Joyce Ovalle" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "description": "The University of Texas at Austin",
-      "headline": "Joyce Ovalle",
-      "name": "Joyce Ovalle",
-      "url": "https://joyceovalle.github.io/"
-    }
-  </script>
-  <!-- End Jekyll SEO tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>Joyce Ovalle | The University of Texas at Austin</title>
+    <!-- ... (your existing meta tags) ... -->
 
-  <link rel="stylesheet" href="/assets/css/style.css?v=c192ac9cc0b87ad6a614e76bfd748b2aa5483a0d">
-  <script src="/assets/js/scale.fix.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+    <!-- Include the font import and general styles -->
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Arvo:400,700,400italic");
+        @import url("https://fonts.googleapis.com/css?family=Lora:400,500,600,700,800");
 
-  <!-- Setup Google Analytics -->
+        body {
+            padding: 10px 50px 0 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #232323;
+            background-color: #FBFAF7;
+            margin: 0;
+            line-height: 1.8em;
+            -webkit-font-smoothing: antialiased;
+        }
 
-  <!-- You can set your favicon here -->
-  <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+        h1, h2, h3 {
+            margin: 40px 0 20px;
+            font-weight: 700;
+            font-family: 'Arvo', Monaco, serif;
+        }
 
-  <!-- end custom head snippets -->
+        h4, h5, h6 {
+            margin: 24px 0 6px;
+            font-weight: 700;
+            font-family: 'Arvo', Monaco, serif;
+        }
+
+        p.indentbio {
+            margin-left: 70px;
+            margin-bottom: 2px;
+            text-indent: -55px;
+        }
+
+        p.indentteach {
+            margin-left: 30px;
+            margin-bottom: 2px;
+            text-indent: -30px;
+        }
+
+        .wrapper {
+            width: 960px;
+        }
+
+        header {
+            background-color: #171717;
+            color: #FDFDFB;
+            width: 170px;
+            float: left;
+            position: fixed;
+            border: 1px solid #000;
+            -webkit-border-top-right-radius: 4px;
+            -webkit-border-bottom-right-radius: 4px;
+            -moz-border-radius-topright: 4px;
+            -moz-border-radius-bottomright: 4px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            padding: 34px 25px 22px 50px;
+            margin: 30px 25px 0 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        p.header {
+            font-size: 16px;
+        }
+
+        h1.header {
+            font-family: 'Arvo', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 1.3em;
+            border-bottom: none;
+            margin-top: 0;
+        }
+
+        h1.header,
+        a.header,
+        a.name,
+        header a {
+            color: #fff;
+        }
+
+        a.header {
+            text-decoration: underline;
+        }
+
+        a.name {
+            white-space: nowrap;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header li {
+            list-style-type: none;
+            width: 132px;
+            height: 15px;
+            margin-bottom: 12px;
+            line-height: 1em;
+            padding: 6px 6px 6px 7px;
+            background: #AF0011;
+            background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #ddd));
+            background: -webkit-linear-gradient(top, #AF0011 0%, #820011 100%);
+            background: -o-linear-gradient(top, #AF0011 0%, #820011 100%);
+            background: -ms-linear-gradient(top, #AF0011 0%, #820011 100%);
+            background: linear-gradient(to top, #AF0011 0%, #820011 100%);
+            border-radius: 4px;
+            border: 1px solid #0D0D0D;
+            -webkit-box-shadow: inset 0px 1px 1px 0 #e90226;
+            box-shadow: inset 0px 1px 1px 0 #e90226;
+        }
+
+        header li:hover {
+            background: #C3001D;
+            background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #ddd));
+            background: -webkit-linear-gradient(top, #C3001D 0%, #950119 100%);
+            background: -o-linear-gradient(top, #C3001D 0%, #950119 100%);
+            background: -ms-linear-gradient(top, #C3001D 0%, #950119 100%);
+            background: linear-gradient(to top, #C3001D 0%, #950119 100%);
+        }
+
+        a.buttons {
+            -webkit-font-smoothing: antialiased;
+            background: url(../images/arrow-down.png) no-repeat;
+            font-weight: normal;
+            text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+            padding: 2px 2px 2px 22px;
+            height: 30px;
+        }
+
+        a.github {
+            background: url(../images/octocat-small.png) no-repeat 1px;
+        }
+
+        a.buttons:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            width: 650px;
+            float: right;
+            padding-bottom: 50px;
+        }
+
+        footer {
+            width: 170px;
+            float: left;
+            position: fixed;
+            bottom: 10px;
+            padding-left: 50px;
+        }
+    </style>
+
+    <!-- ... (your existing head content) ... -->
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <h1 class="header">Joyce Ovalle</h1>
-      <p class="header">PhD Candidate</p>
-      <p class="header">The University of Texas at Austin</p>
+    <div class="wrapper">
+        <header>
+            <h1 class="header">Joyce Ovalle</h1>
+            <p class="header">PhD Candidate</p>
+            <p class="header">The University of Texas at Austin</p>
 
-      <div class="buttons">
-        <div class="firstbutton">
-          <ul>
-            <li><a class="buttons" href="" target="_blank">CV</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
+            <div class="buttons">
+                <div class="firstbutton">
+                    <ul>
+                        <li><a class="buttons" href="" target="_blank">CV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
 
-    <section>
-      <div class="bio">
-        <div class="profile">
-          <img src="./assets/images/profile_2.jpg" width="235" height="275" style="float: left; margin-right: 20px;">
-         </div>
-          <p> I am a candidate for a PhD in Public Policy at the Lyndon B. Johnson School of Public Affairs. My research focuses on the role of civil society organizations, particularly environmental nonprofits and their funders, in shaping public policies. Prior to pursuing doctoral studies, my professional journey includes roles at the Urban Institute's Center on Nonprofits and Philanthropy, research positions at Texas A&M University, and contributions to the public sector through service with the U.S. Department of Energy.
-            I am a proud first-generation college graduate and alumnus of Texas public schools.</p>
-         </div>
-      </div>
-
-      <!-- Publications Section -->
-      <h2 id="publications">Publications</h2>
-
-      <!-- Peer-Reviewed Journal Articles -->
-      <h4>Peer-Reviewed Journal Articles</h4>
-      <ul>
-        <li><a href="https://doi.org/10.1371/journal.pone.0293360" target="_blank">Institutional factors influencing knowledge production for practice: Evidence from nonprofit studies</a> - PLOS ONE </li>
-        <li><a href="https://doi.org/10.1002/asi.23383" target="_blank">Rockin’ robins: Do congresswomen rule the roost in the Twittersphere?</a> - Journal of the Association for Information Science and Technology </li>
-      </ul>
-
-      <!-- Book Chapters -->
-      <h4>Book Chapters</h4>
-      <ul>
-        <li><a href="https://doi.org/10.31219/osf.io/p3m5z" target="_blank">Government Funding – Crowding Out</a> - Encyclopedia of Nonprofit Management, Leadership, and Governance</li>
-        <!-- Add other book chapters as needed -->
-      </ul>
-
-      <!-- Selected Blogs and Policy Briefs -->
-      <h4>Selected Blogs and Policy Briefs</h4>
-      <ul>
-        <li><a href="https://www.urban.org/author/joycelyn-ovalle/blog/three-ways-collaboration-could-potentially-advance-place-based-impact-investing" target="_blank">Three ways collaboration could potentially advance place-based impact investing</a>-Urban Wire</li>
-        <!-- Add other blogs and magazines as needed -->
-        <li><a href="https://www.urban.org/author/joycelyn-ovalle/report/analysis-giving-potential-high-income-donors-washington-dc-metropolitan-region" target="_blank">Analysis of the Giving Potential of High-Income Donors in the Washington, DC, Metropolitan Region</a>-Urban Institute</li>
-      </ul>
-
-      <!-- Work in Progress Section -->
-      <h2 id="work-in-progress">Work in Progress</h2>
-      <ul>
-        <li> How do organizational characteristics shape environmental philanthropy in Texas? A network science approach (Under review with Nonprofit Policy Forum) </li><br>
-        <blockquote>
-          <p>This study uses statewide survey data (n=114) and exponential random graph modeling (ERGM) to investigate the organizational and network factors impacting foundation grant-getting for environmental nonprofits in Texas. In line with elitism perspectives, we observe the likelihood of foundation grants going to those nonprofits who are already receiving financial grants (known in network analysis as preferential attachment). We also find that financial resources were a statistically significant predictor as the higher a nonprofit’s level of resources the more likely they are to receive a foundation grant. However, from a pluralist perspective, we also observe that local geography was meaningful since environmental nonprofits conducting work in areas with higher environmental risks were more likely to receive foundation funding. Our findings suggest that aspects of both elitism and pluralist environmental philanthropy are present in the Texas environmental funding landscape, and conventional frameworks for analyzing philanthropic funding patterns need to consider relational dynamics and context-specific funding nuances.</p>
-        </blockquote>
-        <li>Environmental Nonprofit Funding Dynamics: Exploring Organizational Attributes, Funding Sources, and Mission Focus (In Development, Paper presented at ARNOVA 2023)</li>
-      </ul>
-    </section>
-  </div>
+        <section>
+            <!-- ... (the rest of your content) ... -->
+        </section>
+    </div>
 </body>
 
 </html>
+
