@@ -1,1 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,500,600,700,800");
+
+body {
+    padding: 10px 50px 0 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #232323;
+    background-color: #FBFAF7;
+    margin: 0;
+    line-height: 1.8em;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+    margin: 40px 0 20px;
+    font-weight: 700;
+    font-family: 'Arvo', Monaco, serif;
+}
+
+h4, h5, h6 {
+    margin: 24px 0 6px;
+    font-weight: 700;
+    font-family: 'Arvo', Monaco, serif;
+}
+
+p.indentbio {
+    margin-left: 70px;
+    margin-bottom: 2px;
+    text-indent: -55px;
+}
+
+p.indentteach {
+    margin-left: 30px;
+    margin-bottom: 2px;
+    text-indent: -30px;
+}
+
+/* ... (include the rest of your styles) */
 
