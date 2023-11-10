@@ -1,7 +1,4 @@
 <section>
         <div class="bio">
-  <div class="profile">
-    <img src="./assets/images/RGK_JoycelynOvalle2023_027.jpg" alt="Profile Photo" width="235" height="275" style="margin:0; padding:0;" />
-  </div>
   <p> I am a PhD Candidate at UT Austin’s LBJ School of Public Affairs. I've co-taught research method courses and am currently a research affiliate with the RGK Center for Philanthropy and Community Service. My research projects focus on the role of funders (government, philanthropic, and private) in shaping public policies. My dissertation specifically examines funding disparities among environmental nonprofits, especially the underfunding of environmental justice initiatives. Before pursuing doctoral studies, I managed and conducted research projects at the Urban Institute's Center on Nonprofits and Philanthropy in Washington, D.C. Before joining Urban, I held research positions at Texas A&M University and served in the public sector with the U.S. Department of Energy. I am a proud first-generation alumnus of Texas Public Schools, including Sam Houston State University and Texas A&M University, where I received my BA in Political Science and MPA. <br /><br />
-  <img src="./assets/images/email.png" alt="" width="22" height="16" /> &nbsp; joyce.ovalle@utexas.edu <br /> <br /><br />
+
