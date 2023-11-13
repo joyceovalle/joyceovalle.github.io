@@ -1,18 +1,25 @@
 on:
   push:
+    branches:
+      - master
   pull_request:
     types: [opened, synchronize]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: script/cibuild
     steps:
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          node-version: 16  # Specify Node.js version 16
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
           bundler-cache: true
-      - name: build
+      - name: Build
         run: script/bootstrap
-      - name: test
+      - name: Test
         run: script/cibuild
